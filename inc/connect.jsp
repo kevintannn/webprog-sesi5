@@ -3,7 +3,7 @@
 <%
     Class.forName("com.mysql.jdbc.Driver");
 
-    Connection con = DriverManager.getConnection("jdbc:mysql://localhost/session5_coba", "root", "");
+    Connection con = DriverManager.getConnection("jdbc:mysql://localhost/session5", "root", "");
     // DriverManager.getConnection("jdbc:mysql://localhost/test", "root", "");
     // localhost -> hostnya
     // test -> nama dbnya
